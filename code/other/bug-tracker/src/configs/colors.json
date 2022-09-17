@@ -1,0 +1,11 @@
+{
+        "primary": "#058eda",
+        "offsetWhite": "#fdfcfd",
+        "doneColor":"#4dd87a",
+        
+        "todo": "#56A8FD",
+        "process": "#FFBC3D",
+        "review": "#8F7EE5",
+        "done": "#4DD87A",
+        "close":"#e56b6f"
+}

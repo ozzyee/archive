@@ -1,0 +1,56 @@
+{
+  "name": "bug-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate:component": "bin/scaffold.sh -c",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "cookie": "^0.4.1",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "next": "12",
+    "nookies": "^2.5.2",
+    "react": "17.0.2",
+    "react-calendar": "^3.4.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^3.0.4",
+    "react-minimal-pie-chart": "^8.2.0",
+    "react-svg-donut-chart": "^1.1.0",
+    "styled-components": "^5.3.0",
+    "styled-icons": "^10.37.0",
+    "uuid": "^8.3.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/react": "^6.3.7",
+    "@types/react": "^17.0.34",
+    "@types/react-calendar": "^3.4.3",
+    "@types/styled-components": "^5.1.12",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "eslint-plugin-unused-imports": "^1.1.5",
+    "typescript": "4.3.5"
+  }
+}
