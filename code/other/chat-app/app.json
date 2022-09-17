@@ -1,0 +1,16 @@
+{
+   "expo": {
+      "name": "Your App Name",
+      "icon": "./adaptive-icon.png",
+      "version": "1.0.0",
+      "slug": "your-app-slug",
+      "ios": {
+         "bundleIdentifier": "com.oscar.earle",
+         "buildNumber": "1.0.0"
+      },
+      "android": {
+         "package": "com.oscar.earle",
+         "versionCode": 1
+      }
+   }
+}
