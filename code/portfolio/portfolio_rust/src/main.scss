@@ -1,0 +1,25 @@
+
+* {
+  font-family: 'Oxygen', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #133056;
+  --secondry-color: #F3A712;
+  --light-background: white;
+  --dark-background: #EAEAEA;
+  --mediam-font: 1.4rem;
+  --large-font: 2.3rem;
+  --xlarge-font: 2.8rem;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.main-content {
+  position: relative;
+}

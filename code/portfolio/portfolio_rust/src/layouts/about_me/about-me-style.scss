@@ -1,0 +1,110 @@
+.about-me-main-content {
+  height: 600px;
+  z-index: 5;
+  background: var(--light-background);
+  padding: 3em 4em;
+}
+
+.about_me-content-wrapper {
+  display: grid;
+  grid-template-areas:"image content content content content content content content content content";
+  gap: 10px;
+  padding: 60px;
+}
+
+.about_me-img-wrapper {
+  grid-area: image;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 47px;
+
+  img {
+    max-width: 300px;
+    border-radius: 11px;
+  }
+}
+
+.about_me-subtitle {
+  font-size: var(--mediam-font);
+  color: var(--secondry-color);
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.about_me-subtitle-lg {
+  font-size: 1.45rem;
+}
+
+.about_me-description {
+  margin-top: 15px;
+}
+
+.about_me-main-content-wrapper {
+  grid-area: content;
+  margin: 0 40px;
+
+  .spacer {
+    border: 1px solid lightgray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
+
+.about_me-main-content-wrapper .about_me-description {
+  margin-top: 0;
+}
+
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  div {
+    &:nth-child(3) {
+      width: 100%;
+    }
+  }
+
+  button {
+    width: 150px;
+    height: 34px;
+    border-radius: 22px;
+    border-color: transparent;
+    background: var(--secondry-color);
+    margin-top: 20px;
+    color: var(--light-background);
+    font-weight: bold;
+
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+
+  .contact-info-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 15px;
+
+    p {
+      &:nth-child(1) {
+        font-weight: bold;
+        padding-right: 10px;
+      }
+
+      &:nth-child(2) {
+        float: left;
+      }
+    }
+
+    .email {
+      color: var(--secondry-color);
+    }
+  }
+}
