@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <ImageView
+          android:id="@+id/bg_img"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:adjustViewBounds="true"
+          android:contentDescription="@string/bg_disc"
+          android:scaleType="fitCenter"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/pawcket_img"
+          tools:ignore="MissingConstraints" />
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:background="@drawable/layout_bg"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/constraintLayout"
+          android:layout_width="match_parent"
+          android:layout_height="280dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="210dp"
+            android:layout_height="190dp"
+            android:contentDescription="@string/image_frame"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/frame" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/roundCardView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:background="#4C1818"
+            android:elevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="600dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView">
+
+          <ImageView
+              android:id="@+id/imageView5"
+              android:layout_width="120dp"
+              android:layout_height="120dp"
+              android:layout_gravity="center"
+              android:background="@color/white"
+              android:contentDescription="@string/news"
+              app:srcCompat="@drawable/feed_icon_nav" />
+        </androidx.cardview.widget.CardView>
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_marginTop="16dp"
+          android:background="@drawable/layout_bg"
+          android:paddingBottom="100dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+          app:layout_constraintVertical_bias="1.0">
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="320dp"
+            android:layout_height="10dp"
+            android:background="@drawable/title_underline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="336dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/news_feed"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </LinearLayout>
+</ScrollView>
+  <include
+  android:id="@+id/id"
+  layout="@layout/nav"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  app:layout_constraintBottom_toBottomOf="parent"
+  tools:layout_editor_absoluteX="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

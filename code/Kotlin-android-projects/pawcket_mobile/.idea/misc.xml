@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1651431560960.xml" value="0.44003378378378377" />
+        <entry key="../../../../layout/compose-model-1651432872126.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1651434887645.xml" value="0.30278716216216217" />
+        <entry key="../../../../layout/compose-model-1651584531000.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1651592023733.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1651672545183.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1651676512259.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1651677271735.xml" value="0.5175925925925926" />
+        <entry key="../../../../layout/compose-model-1651679595842.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1651682296763.xml" value="0.5231481481481481" />
+        <entry key="../../../../layout/compose-model-1651682718804.xml" value="0.5231481481481481" />
+        <entry key="../../../../layout/compose-model-1651682731684.xml" value="0.5231481481481481" />
+        <entry key="../../../../layout/compose-model-1651833544916.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1651833967477.xml" value="0.5359342915811088" />
+        <entry key="../../../../layout/compose-model-1651833974109.xml" value="0.8298887122416534" />
+        <entry key="../../../../layout/compose-model-1651838061895.xml" value="0.7518037518037518" />
+        <entry key="../../../../layout/compose-model-1651838068274.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1651844799676.xml" value="0.6428571428571429" />
+        <entry key="../../../../layout/compose-model-1651844839028.xml" value="0.4573921971252567" />
+        <entry key="../../../../layout/compose-model-1651845472888.xml" value="0.6428571428571429" />
+        <entry key="../../../../layout/compose-model-1651845867902.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1651851095340.xml" value="0.7082670906200318" />
+        <entry key="../../../../layout/compose-model-1651852011308.xml" value="0.6270232230823364" />
+        <entry key="../../../../layout/compose-model-1651852015616.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1651854416606.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1651854656429.xml" value="0.7462311557788944" />
+        <entry key="../../../../layout/compose-model-1652098701658.xml" value="0.5359342915811088" />
+        <entry key="../../../../layout/compose-model-1652099514853.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1652099646191.xml" value="0.733286418015482" />
+        <entry key="../../../../layout/compose-model-1652100464846.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1652100801618.xml" value="0.8546296296296296" />
+        <entry key="../../../../layout/compose-model-1652101005161.xml" value="0.733286418015482" />
+        <entry key="../../../../layout/compose-model-1652101009317.xml" value="0.8546296296296296" />
+        <entry key="app/src/main/res/drawable/dark_button_shape.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/feed_icon_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/form_btn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.3475" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.4365" />
+        <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.4025" />
+        <entry key="app/src/main/res/drawable/light_btn_small.xml" value="0.4025" />
+        <entry key="app/src/main/res/drawable/light_button_shape.xml" value="0.3425" />
+        <entry key="app/src/main/res/drawable/light_circle_btn.xml" value="0.4025" />
+        <entry key="app/src/main/res/drawable/more_btn_shape.xml" value="0.3425" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2640362548828125" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.337469482421875" />
+        <entry key="app/src/main/res/layout/add_friend_modal.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/create_user.xml" value="0.25815217391304346" />
+        <entry key="app/src/main/res/layout/current_messages_modal.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/current_messaging.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/dashboard.xml" value="0.2820328422214674" />
+        <entry key="app/src/main/res/layout/error_snackbar.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/friend_request.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/friends_modal.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/heading.xml" value="0.3921875" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/messaging.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/my_friends.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/nav.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/news.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/news_feed_post.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/recive_msg_bubble.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/search_friend.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/select_contact.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/send_msg_bubble.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/sign_up.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/top_of_screen.xml" value="0.3921875" />
+        <entry key="app/src/main/res/layout/unfriend_modal.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/user_pet_icon_dashboard.xml" value="0.2907608695652174" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

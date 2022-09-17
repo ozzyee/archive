@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="0dp"
+      android:layout_height="60dp"
+      android:background="@color/light_blue"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0">
+
+    <Button
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/user_icon"
+        android:contentDescription="@string/user_image"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/imageView11"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/miscellaneous_icon_nav"
+        android:contentDescription="@string/misc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/imageView12"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/nav_news"
+        android:contentDescription="@string/user_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/imageView13"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/nav_chat"
+        android:contentDescription="@string/message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/imageView14"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/nav_vet"
+        android:contentDescription="@string/vets"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

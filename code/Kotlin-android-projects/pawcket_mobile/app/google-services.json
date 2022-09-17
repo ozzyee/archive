@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1090248791757",
+    "firebase_url": "https://pawcket-372d7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pawcket-372d7",
+    "storage_bucket": "pawcket-372d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090248791757:android:5a78bd2a7c7985fa843b84",
+        "android_client_info": {
+          "package_name": "com.example.pawcket_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090248791757-dvueor6je0nr0idrm0e7or0b56m3jg3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHWourgjSIpxNZDefR8CEbWR7tNBno1kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090248791757-dvueor6je0nr0idrm0e7or0b56m3jg3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
