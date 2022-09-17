@@ -1,0 +1,45 @@
+{
+   "name": "portfolio",
+   "private": true,
+   "scripts": {
+      "generate:component": "bin/scaffold.sh -c",
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "test": "jest --watchAll"
+   },
+   "dependencies": {
+      "add": "^2.0.6",
+      "babel-plugin-styled-components": "^2.0.2",
+      "cookie": "^0.4.1",
+      "dotenv": "^10.0.0",
+      "firebase": "^9.6.1",
+      "firebase-admin": "^10.0.1",
+      "next": "12.0.7",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-lazyload": "^3.2.0",
+      "styled-icons": "^10.45.0",
+      "typewriter-effect": "^2.18.2",
+      "yarn": "^1.22.17"
+   },
+   "devDependencies": {
+      "@testing-library/dom": "^8.11.1",
+      "@testing-library/jest-dom": "^5.16.1",
+      "@testing-library/react": "^12.1.2",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/cookie": "^0.4.1",
+      "@types/cookies": "^0.7.7",
+      "@types/jest": "^27.4.0",
+      "@types/node": "16.11.12",
+      "@types/react": "17.0.37",
+      "@types/styled-components": "^5.1.17",
+      "eslint": "8.4.1",
+      "eslint-config-next": "12.0.7",
+      "jest": "^27.4.7",
+      "styled-components": "^5.3.3",
+      "ts-jest": "^27.1.2",
+      "typescript": "^4.5.4"
+   }
+}
