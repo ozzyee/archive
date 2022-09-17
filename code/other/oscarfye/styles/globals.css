@@ -1,0 +1,47 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__body{
+  display: flex;
+  flex-grow: 1;
+}
+
+.nav-colored { 
+  background-color:#142C43; 
+  transition: background .2s;
+
+}
+.nav-transparent { 
+  background-color:red;
+  transition: background .2s;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  /* background-color: #121212; */
+
+}
+
+
+.margin-top{
+  margin-top: 1000px;
+}
+
