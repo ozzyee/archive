@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_date_dates_s",
+  "info": {
+    "name": "dates ",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "buy_url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

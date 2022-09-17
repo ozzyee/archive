@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_s",
+  "info": {
+    "name": "events "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "events": {
+      "type": "dynamiczone",
+      "components": [
+        "date.dates"
+      ]
+    }
+  }
+}

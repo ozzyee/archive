@@ -1,0 +1,47 @@
+{
+  "name": "sams-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate:component": "bin/scaffold.sh -c",
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@types/jquery": "^3.5.5",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.6.0",
+    "graphql": "^15.5.0",
+    "moment": "^2.29.1",
+    "next": "10.0.6",
+    "next-images": "^1.7.0",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.3",
+    "react-meta-tags": "^1.0.1",
+    "storybook": "^6.1.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
+    "babel-loader": "^8.2.2",
+    "styled-components": "^5.2.1",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3"
+  }
+}

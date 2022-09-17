@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gallary",
+      "handler": "gallary.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gallary",
+      "handler": "gallary.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gallary",
+      "handler": "gallary.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

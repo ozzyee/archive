@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "gallaries",
+  "info": {
+    "name": "gallary"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "type": "dynamiczone",
+      "components": [
+        "album.image"
+      ]
+    }
+  }
+}

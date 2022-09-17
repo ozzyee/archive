@@ -1,0 +1,13 @@
+{
+  "name": "sam-ostler",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/ozzyee/sam-web-final-edit",
+  "author": "Oscar Earle",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "deploy": "aws s3 sync . s3://sam-ostler.com --exclude '.git' --exclude '.git/*' --exclude '.gitattributes' --exclude 'README.md' --exclude 'package.json'",
+    "cache:clear": "aws cloudfront create-invalidation --distribution-id E1Y7E4GVZUBKQO --paths '/' '/*'"
+  }
+}

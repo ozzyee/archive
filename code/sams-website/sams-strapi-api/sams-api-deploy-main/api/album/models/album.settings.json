@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "albums",
+  "info": {
+    "name": "album"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "album": {
+      "type": "dynamiczone",
+      "components": [
+        "album.album"
+      ]
+    }
+  }
+}
